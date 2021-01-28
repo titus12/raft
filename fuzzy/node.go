@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
+	"github.com/titus12/raft"
 	rdb "github.com/hashicorp/raft-boltdb"
 )
 

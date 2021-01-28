@@ -2,7 +2,7 @@
 
 package fuzzy
 
-import "github.com/hashicorp/raft"
+import "github.com/titus12/raft"
 
 // ApplyBatch enables fuzzyFSM to satisfy the BatchingFSM interface. This
 // function is gated by the batchtest build flag.
