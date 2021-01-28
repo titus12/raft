@@ -191,6 +191,7 @@ func (r *Raft) runFollower() {
 
 			// Check if we have had a successful contact
 			lastContact := r.LastContact()
+			r.logger.Warn(fmt.Sprintf("heartbeatTimer now %v - %v", time.Now().UnixNano(), lastContact.UnixNano()))
 			if time.Now().Sub(lastContact) < r.conf.HeartbeatTimeout {
 				continue
 			}
