@@ -42,7 +42,7 @@ jobs:
               exit 1
             fi
       - run: |
-          PACKAGE_NAMES=$(go list ./... | grep -v github.com/hashicorp/raft/fuzzy)
+          PACKAGE_NAMES=$(go list ./... | grep -v github.com/titus12/raft/fuzzy)
           go vet $PACKAGE_NAMES
 
   go-test:

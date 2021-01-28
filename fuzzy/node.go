@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/raft"
 	rdb "github.com/hashicorp/raft-boltdb"
+	"github.com/titus12/raft"
 )
 
 type raftNode struct {

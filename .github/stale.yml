@@ -21,9 +21,9 @@ staleLabel: "waiting-reply"
 markComment: |
   Hey there,
   We wanted to check in on this request since it has been inactive for at least 90 days.
-  Have you reviewed the latest [godocs](https://godoc.org/github.com/hashicorp/raft)? 
-  If you think this is still an important issue in the latest version of [the Raft library](https://github.com/hashicorp/raft/compare/) or 
-  [its documentation](https://github.com/hashicorp/raft/compare/) please feel let us know and we'll keep it open for investigation.
+  Have you reviewed the latest [godocs](https://godoc.org/github.com/titus12/raft)?
+  If you think this is still an important issue in the latest version of [the Raft library](https://github.com/titus12/raft/compare/) or
+  [its documentation](https://github.com/titus12/raft/compare/) please feel let us know and we'll keep it open for investigation.
   If there is still no activity on this request in 30 days, we will go ahead and close it.
   Thank you!
 
@@ -34,4 +34,4 @@ unmarkComment: false
 closeComment: >
   Hey there,
   This issue has been automatically closed because there hasn't been any activity for a while. 
-  If you are still experiencing problems, or still have questions, feel free to [open a new one](https://github.com/hashicorp/raft/issues/new) :+1
+  If you are still experiencing problems, or still have questions, feel free to [open a new one](https://github.com/titus12/raft/issues/new) :+1
